@@ -51,8 +51,8 @@ border_c_light="${hex_color[2]}"
 shadow_size="85x10+0+10"
 shadow_color="${hex_color[3]}"
 # footer text
-owner_info=" @D_∆J"
-footer_text=" Shot by Xshot"
+owner_info=" @Krisna"
+footer_text=" Shot by NevtGanz"
 #footer style
 #xshot
 footer_xy="+0+30"
@@ -270,6 +270,7 @@ titlebar(){
   #760x360
   if [[ "${add_on_img}" == "yes" ]]; then  
     magick "$" -fill $bl \
+      -bar ${codebold} \ ${title}
       -background ${titlebar_color} \
       -gravity north \
       -chop 0x$br \

@@ -1,6 +1,6 @@
 <div align="center">
   <img src="/assets/banner.png">
-  <p><b>xshot v1.0.3</b></p>
+  <p><b>xshot v1.0.4</b></p>
   <br><br>
   <P><b>A tool to make your screenshots look better</b></p>
 </div>
@@ -15,7 +15,7 @@
 ```
 pkg update && pkg upgrade
 pkg i imagemagick inotify-tools bc nano -y
-git clone https://github.com/dlvash/xshot
+git clone https://github.com/AzRyCb/xshot
 cd xshot
 bash install.sh
 bash xshot.sh

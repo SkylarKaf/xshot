@@ -18,5 +18,10 @@ pkg i imagemagick inotify-tools bc nano -y
 git clone https://github.com/AzRyCb/xshot
 cd xshot
 bash install.sh
+```
+
+RUN
+```
 bash xshot.sh
+OR bash xshot.sh -a -d
 ```

@@ -102,4 +102,4 @@ chmod +x ${bin}/xshot
 check
 echo -e "$(log)${g}installation complete"
 echo -e "${o}
-run tools with command 'xshot'"
+run tools with command 'bash xshot.sh'"
